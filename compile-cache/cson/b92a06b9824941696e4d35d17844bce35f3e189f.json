@@ -1,0 +1,1 @@
+{".platform-darwin atom-text-editor[data-grammar~=python]:not(.mini)":{"alt-cmd-g":"atom-autocomplete-python:go-to-definition"},".platform-linux atom-text-editor[data-grammar~=python]:not(.mini)":{"ctrl-alt-g":"atom-autocomplete-python:go-to-definition"},".platform-win32 atom-text-editor[data-grammar~=python]:not(.mini)":{"ctrl-alt-g":"atom-autocomplete-python:go-to-definition"}}

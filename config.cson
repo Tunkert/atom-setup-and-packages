@@ -1,0 +1,17 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "e8e66314-7c6e-4f12-91d2-cb06d3cd2f5a"
+  core:
+    autoHideMenuBar: true
+    telemetryConsent: "limited"
+    themes: [
+      "dracula-ui"
+      "dracula-syntax"
+    ]
+  "exception-reporting":
+    userId: "1701f56f-108c-450b-bfba-3c5528712b99"
+  "linter-ui-default":
+    showPanel: true
+  welcome:
+    showOnStartup: false

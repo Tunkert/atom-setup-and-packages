@@ -1,0 +1,75 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-autocomplete-python/versions/5.0.0/tarball",
+  "_id": "atom-autocomplete-python@5.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-0IFFImLgNYgb3466oxXBhW3m6SWpY8gyf5R43AWdsDBSJiuGDIbgVhoAlT+NucyWyBdcobbFzyK46ZTM5Uk2Ig==",
+  "_location": "/atom-autocomplete-python",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-autocomplete-python/versions/5.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-autocomplete-python/versions/5.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-autocomplete-python/versions/5.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-autocomplete-python/versions/5.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-autocomplete-python/versions/5.0.0/tarball",
+  "_shasum": "6d04a2e1de62ec8ed6fd55eacae496dfe8cd4319",
+  "_spec": "https://www.atom.io/api/packages/atom-autocomplete-python/versions/5.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-20211128-3698-16fwr1c.6jd9",
+  "bugs": {
+    "url": "https://github.com/qicrosoft/atom-autocomplete-python/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "snippets": {
+      "versions": {
+        "0.1.0": "consumeSnippets"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-slick": "^2.0.0",
+    "atom-space-pen-views": "~2.1.0",
+    "fuzzaldrin-plus": "^0.3.1",
+    "mixpanel": "^0.5.0",
+    "selector-kit": "^0.1",
+    "space-pen": "^5.1.2",
+    "underscore": "^1.8.3"
+  },
+  "deprecated": false,
+  "description": "Python completions for packages, variables, methods, functions, with their arguments. Powered by Jedi.",
+  "engines": {
+    "atom": ">=0.194.0 <2.0.0"
+  },
+  "homepage": "https://github.com/qicrosoft/atom-autocomplete-python#readme",
+  "keywords": [
+    "python",
+    "autocomplete",
+    "jedi"
+  ],
+  "license": "GPL",
+  "main": "./lib/main",
+  "name": "atom-autocomplete-python",
+  "package-dependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    },
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getHyperclickProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qicrosoft/atom-autocomplete-python.git"
+  },
+  "version": "5.0.0"
+}
